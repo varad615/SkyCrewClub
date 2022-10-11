@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/Main.module.css";
+import Logo from "../../public/Logo.png";
 
 const Sections = () => {
   return (
@@ -13,11 +14,7 @@ const Sections = () => {
           </div>
           <div className={styles.flex_row}>
             <div className={`${styles.box} ${styles.flex} ${styles.trophy}`}>
-              <img
-                src="/trophy.png"
-                height={165}
-                width={165}
-              />
+            <Image src={Logo} />
               <h1>Rewards & Incentives for Active Learners</h1>
             </div>
             <div className={`${styles.box} ${styles.flex} ${styles.saly}`}>
