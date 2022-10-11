@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/Main.module.css";
 import Trophy from "../../public/Trophy.png";
+import Saly from "../../public/Saly.png";
 
 const Sections = () => {
   return (
@@ -29,7 +30,7 @@ const Sections = () => {
                 width={165}
                 objectFit="contain"
               /> */}
-              <Image src={Trophy} height={165} width={165} />
+              <Image src={Saly} height={165} width={165} />
               <h1>Learn along with the Community</h1>
             </div>
           </div>
