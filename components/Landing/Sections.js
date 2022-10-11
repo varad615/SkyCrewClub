@@ -17,12 +17,11 @@ const Sections = () => {
                 src="/trophy.png"
                 height={165}
                 width={165}
-                objectFit="contain"
               />
               <h1>Rewards & Incentives for Active Learners</h1>
             </div>
             <div className={`${styles.box} ${styles.flex} ${styles.saly}`}>
-              <Image
+              <img
                 src="/saly.png"
                 height={165}
                 width={165}
