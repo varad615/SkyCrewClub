@@ -57,7 +57,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.nav}>
         <div className={styles.logoContainer}>
-          <Link href="/main">
+          <Link href="/">
             <Image src={Logo} />
           </Link>
         </div>
