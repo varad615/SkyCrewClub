@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Trophy from "../../public/trophy.png";
 import styles from "../../styles/Main.module.css";
 
 const Sections = () => {
@@ -14,7 +15,7 @@ const Sections = () => {
           <div className={styles.flex_row}>
             <div className={`${styles.box} ${styles.flex} ${styles.trophy}`}>
               <Image
-                src="/trophy.png"
+                src={Trophy}
                 height={165}
                 width={165}
                 objectFit="contain"
