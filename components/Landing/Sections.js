@@ -22,7 +22,7 @@ const Sections = () => {
             </div>
             <div className={`${styles.box} ${styles.flex} ${styles.saly}`}>
               <img
-                src="/saly.png"
+                src="saly.png"
                 height={165}
                 width={165}
                 objectFit="contain"
