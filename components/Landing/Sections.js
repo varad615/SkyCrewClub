@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Trophy from "../../public/trophy.png";
 import styles from "../../styles/Main.module.css";
 
 const Sections = () => {
