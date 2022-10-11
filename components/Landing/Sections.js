@@ -19,7 +19,7 @@ const Sections = () => {
                 height={165}
                 width={165}
               /> */}
-              <Image src={Logo} />
+              <Image src={Logo} height={165} width={165} />
               <h1>Rewards & Incentives for Active Learners</h1>
             </div>
             <div className={`${styles.box} ${styles.flex} ${styles.saly}`}>
