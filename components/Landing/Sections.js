@@ -19,7 +19,7 @@ const Sections = () => {
             <div className={styles.flex_row}>
               <div className={`${styles.box} ${styles.flex} ${styles.trophy}`}>
                 <Image
-                  src={Trophy}
+                  src="/trophy.png"
                   height={165}
                   width={165}
                   objectFit="contain"
