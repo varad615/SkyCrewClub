@@ -1,5 +1,3 @@
-import Image from "next/image";
-import MyDropdown from "./Dropdown/MyDropdown";
 
 const Header = () => {
     const styles = {
@@ -14,7 +12,7 @@ const Header = () => {
     <div className={styles.wrapper}>
     <div className={styles.content}>
         {/* <div className={styles.profileBut}>T</div> */}
-        <MyDropdown />
+
     </div>
   </div>
   )

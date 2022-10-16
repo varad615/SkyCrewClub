@@ -2,8 +2,8 @@ import Image from "next/image";
 import Shapes from "../../public/Shapes.png";
 import mobileHeroBg from "../../public/mobile-hero-bg.png";
 import styles from "../../styles/Main.module.css";
-import Trophy from "../../public/trophy.png";
-import Saly from "../../public/saly.png";
+import Trophy from "../../public/Trophy.png";
+import Saly from "../../public/Saly.png";
 
 
 const Sections = () => {
