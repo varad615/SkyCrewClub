@@ -45,7 +45,7 @@ function Home() {
       message,
       signature,
       redirect: false,
-      callbackUrl: "/dashboard"
+      callbackUrl: "/user"
     });
     /**
      * instead of using signIn(..., redirect: "/user")
