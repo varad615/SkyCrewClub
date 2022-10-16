@@ -3,8 +3,8 @@ import Navbar from "../components/Landing/Navbar";
 import Shapes from "../public/Shapes.png";
 import mobileHeroBg from "../public/mobile-hero-bg.png";
 import styles from "../styles/Main.module.css";
-import Trophy from "../public/Trophy.png";
-import Saly from "../public/Saly.png";
+import Trophy from "../public/trophy.png";
+import Saly from "../public/saly.png";
 import { useState, useEffect } from "react";
 
 const home = () => {
@@ -13,7 +13,7 @@ const home = () => {
       <div className={styles.container}></div>
       <Navbar />
       <div className={styles.sections}>
-        {/* hero Section */}
+      {/* hero Section */}
         <section className={styles.hero_section}>
           <h4>Rewarding the Next Generation of Learners</h4>
           <div className={styles.boxes}>
@@ -22,7 +22,7 @@ const home = () => {
             </div>
             <div className={styles.flex_row}>
               <div className={`${styles.box} ${styles.flex} ${styles.trophy}`}>
-                <Image
+                <Image 
                   src={Trophy}
                   height={165}
                   width={165}
@@ -31,7 +31,10 @@ const home = () => {
                 <h1>Rewards & Incentives for Active Learners</h1>
               </div>
               <div className={`${styles.box} ${styles.flex} ${styles.saly}`}>
-                <Image src={Saly} objectFit="contain" />
+              <Image 
+                  src={Saly}
+                  objectFit="contain"
+                />
                 <h1>Learn along with the Community</h1>
               </div>
             </div>

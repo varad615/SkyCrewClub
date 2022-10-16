@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
 import classNames from "classnames";
 import { RiBarChartBoxLine } from "react-icons/ri";
-import { IoArrowBackOutline, IoPeople } from "react-icons/io5";
+import { IoArrowBackOutline } from "react-icons/io5";
+import { IoPeople } from "react-icons/io5";
 import { FaPen } from "react-icons/fa";
 import LogoIcon from "../../public/Logo.png";
 import Favi from "../../public/Favi.png";
@@ -110,8 +111,8 @@ const Sidebar = () => {
           {menuItems.map(({ icon: Icon, ...menu }) => {
             const classes = getNavItemClasses(menu);
             return (
-              <div className={classes} key={menu.lable}>
-                <Link href={menu.link} >
+              <div className={classes}>
+                <Link href={menu.link}>
                   <a className=" flex py-4  px-3 items-center w-full h-full">
                     <div style={{ width: "2.5rem", height: "1.5rem" }}>
                       <Icon size={20} />
