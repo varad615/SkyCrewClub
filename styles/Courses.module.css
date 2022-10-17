@@ -1,0 +1,123 @@
+.courses_page__hldr{
+    width: 100%;
+    max-width: 72em;
+    /* max-width: 1440px; */
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+    padding: 2em;
+}
+
+.main h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+
+.course__cards{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2em;
+    /* grid-gap: 1.5em; */
+}
+
+.course__cards a,
+.course__card{
+    text-decoration: none;
+    cursor: pointer;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: inherit;
+    display: block;
+    border-radius: 0.75em;
+    border: 1px solid #E8E8E8;
+    background-color: #fff;
+    transition: all .5s ease;
+}
+
+  
+.course__cards a:hover,
+.course__card:hover{
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; /* zoom in */
+    transform: translate3D(0,-1px,0) scale(1.01);
+}
+
+
+.course_card__image{
+    border-radius: 0.75em 0.75em 0 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    transition: all .5s ease;
+}
+
+
+.card_content__hldr{
+    display: flex;
+    flex-direction: column;
+    padding:  1em 0;
+    padding-inline-start: 1.5em;
+    padding-inline-end: 1.5em;
+}
+
+.card_content__hldr h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 5rem;
+    font-family: Inter, "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "EB Garamond", serif, "Craftwork Sans";
+    margin: 0;
+}
+
+.card_content__hldr p{
+    font-size: 16px;
+    line-height: 135%;
+    color: #888888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.course_content__but{
+    margin-top: 1em;
+    width: 100%;
+    border: 1px solid #111;
+    border-radius: 8px;
+    background: #fff;
+    padding-inline-start: 1.5em;
+    padding-inline-end: 1.5em;
+    line-height: 1.2;
+    outline: 2px solid transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    min-width: 2.5em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Inter, "SF Pro Display", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "EB Garamond", serif, "Craftwork Sans";
+   
+}
+
+.course_content__but:hover{
+    background: #F6FAFD;
+}
+
