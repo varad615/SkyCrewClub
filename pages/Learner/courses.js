@@ -10,7 +10,7 @@ function courses() {
 
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <div className={styles.courses_page__hldr}>
       <div className={styles.main}>
         <h3>Courses</h3>

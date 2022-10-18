@@ -4,6 +4,7 @@ import Layout from "../components/Dashboard/Layout";
 import Vec1 from "../public/Pictures/Vec1.png";
 import Vec2 from "../public/Pictures/Vec2.png";
 import Vec3 from "../public/Pictures/Vec3.png";
+
 //moralis
 import { getSession, signOut } from "next-auth/react";
 //update
@@ -51,9 +52,9 @@ const dashboard = ({ user }) => {
                   <Dropdown placement="bottom-left">
                     <Dropdown.Trigger>
                       <Avatar
-                        bordered
+                        as="button"
                         size="lg"
-                        text="T"
+                        src="/ProfileIcon.png"
                         color="secondary"
                         textColor="white"
                       />
@@ -86,7 +87,7 @@ const dashboard = ({ user }) => {
                       </Dropdown.Item>
                       <Dropdown.Item key="profilePage" withDivider>
                         <Link href="/" color="secondary">
-                          Public Profile
+                          My Profile
                         </Link>
                       </Dropdown.Item>
                       <Dropdown.Item key="analytics" withDivider>
@@ -95,7 +96,7 @@ const dashboard = ({ user }) => {
                         </Link>
                       </Dropdown.Item>
                       <Dropdown.Item key="help_and_feedback" withDivider>
-                        <Link href="/" color="secondary">
+                        <Link href="/profilesetting" color="secondary">
                           Profile Setting
                         </Link>
                       </Dropdown.Item>

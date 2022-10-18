@@ -21,7 +21,7 @@ const Navbar = () => {
             </li>
             <li className={styles.button}>
               {/* <button>V</button> */}
-              <Dropdown placement="bottom-left" >
+              <Dropdown placement="bottom-left">
                 <Dropdown.Trigger>
                   <Avatar
                     bordered
@@ -41,7 +41,9 @@ const Navbar = () => {
                     <Text b color="inherit" css={{ d: "flex" }}>
                       wallet id:
                     </Text>
-                    <Text b color="inherit" css={{ d: "flex" }}>Hello</Text>
+                    <Text b color="inherit" css={{ d: "flex" }}>
+                      Hello
+                    </Text>
                   </Dropdown.Item>
                   <Dropdown.Item key="profilePage" withDivider>
                     <Link href="/" color="secondary">
@@ -59,9 +61,7 @@ const Navbar = () => {
                     </Link>
                   </Dropdown.Item>
                   <Dropdown.Item key="logout" color="error" withDivider>
-                    <button>
-                      Log out
-                    </button>
+                    <button>Log out</button>
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
